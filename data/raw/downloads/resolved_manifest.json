@@ -1,0 +1,582 @@
+[
+  {
+    "id": "wrap_principles",
+    "title": "WRAP 12 Principles",
+    "url": "https://wrapcompliance.org/wp-content/uploads/2020/12/2020-05-WRAP-Principles.pdf",
+    "type": "pdf",
+    "standard_name": "WRAP",
+    "citation": "WRAP 12 Principles",
+    "version": "2020-05",
+    "tags": [
+      "wrap",
+      "social-compliance",
+      "health-and-safety"
+    ],
+    "local_path": "data\\raw\\downloads\\wrap-principles.pdf",
+    "skipped": true
+  },
+  {
+    "id": "wrap_facility_handbook",
+    "title": "WRAP Facility Handbook 2025",
+    "url": "https://wrapcompliance.org/wp-content/uploads/2024/12/Facility-Handbook-2025-Version.pdf",
+    "type": "pdf",
+    "standard_name": "WRAP",
+    "citation": "WRAP Facility Handbook",
+    "version": "2025",
+    "tags": [
+      "wrap",
+      "pre-audit",
+      "management-systems"
+    ],
+    "local_path": "data\\raw\\downloads\\wrap-facility-handbook.pdf",
+    "skipped": true
+  },
+  {
+    "id": "wrap_risk_assessment",
+    "title": "WRAP Health and Safety Risk Assessment Guide",
+    "url": "https://wrapcompliance.org/wp-content/uploads/2020/09/2014-01-WRAP-English-Risk-Assessment.pdf",
+    "type": "pdf",
+    "standard_name": "WRAP",
+    "citation": "WRAP Risk Assessment Guide",
+    "version": "2014-01",
+    "tags": [
+      "wrap",
+      "health-and-safety",
+      "risk-assessment"
+    ],
+    "local_path": "data\\raw\\downloads\\wrap-risk-assessment.pdf",
+    "skipped": true
+  },
+  {
+    "id": "wrap_risk_management",
+    "title": "WRAP Risk Management Guide",
+    "url": "https://wrapcompliance.org/wp-content/uploads/2021/01/2021-01-15-Risk-Management-Guide.pdf",
+    "type": "pdf",
+    "standard_name": "WRAP",
+    "citation": "WRAP Risk Management Guide",
+    "version": "2021-01",
+    "tags": [
+      "wrap",
+      "hazards",
+      "risk-management"
+    ],
+    "local_path": "data\\raw\\downloads\\wrap-risk-management.pdf",
+    "skipped": true
+  },
+  {
+    "id": "eti_base_code_pdf",
+    "title": "ETI Base Code (English)",
+    "url": "https://www.ethicaltrade.org/sites/default/files/shared_resources/ETI%20Base%20Code%20%28English%29.pdf",
+    "type": "pdf",
+    "standard_name": "ETI Base Code",
+    "citation": "ETI Base Code",
+    "version": "current-public-pdf",
+    "tags": [
+      "eti",
+      "smeta",
+      "labour-standards"
+    ],
+    "local_path": "data\\raw\\downloads\\eti-base-code-pdf.pdf",
+    "skipped": true
+  },
+  {
+    "id": "eti_base_code_page",
+    "title": "ETI Base Code Overview Page",
+    "url": "https://www.ethicaltrade.org/eti-base-code",
+    "type": "html",
+    "standard_name": "ETI Base Code",
+    "citation": "ETI Base Code overview",
+    "version": "live-page",
+    "tags": [
+      "eti",
+      "smeta",
+      "overview"
+    ],
+    "local_path": "data\\raw\\downloads\\eti-base-code-page.html",
+    "skipped": true
+  },
+  {
+    "id": "eti_working_hours",
+    "title": "ETI Base Code Guidance: Working Hours",
+    "url": "https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_working_hours_guidance.pdf",
+    "type": "pdf",
+    "standard_name": "ETI Base Code",
+    "citation": "ETI Working Hours Guidance",
+    "version": "guidance",
+    "tags": [
+      "eti",
+      "working-hours",
+      "wages"
+    ],
+    "local_path": "data\\raw\\downloads\\eti-working-hours.pdf",
+    "skipped": true
+  },
+  {
+    "id": "eti_child_labour",
+    "title": "ETI Base Code Guidance: Child Labour",
+    "url": "https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_base_code_guidance_-_child_labour_web_0.pdf",
+    "type": "pdf",
+    "standard_name": "ETI Base Code",
+    "citation": "ETI Child Labour Guidance",
+    "version": "guidance",
+    "tags": [
+      "eti",
+      "child-labour"
+    ],
+    "local_path": "data\\raw\\downloads\\eti-child-labour.pdf",
+    "skipped": true
+  },
+  {
+    "id": "eti_foa",
+    "title": "ETI Implementing Freedom of Association: Five-Step Plan",
+    "url": "https://www.ethicaltrade.org/sites/default/files/shared_resources/Implementing%20freedom%20of%20association%20-%20a%20five%20step%20plan.pdf",
+    "type": "pdf",
+    "standard_name": "ETI Base Code",
+    "citation": "ETI Freedom of Association Guidance",
+    "version": "2019",
+    "tags": [
+      "eti",
+      "freedom-of-association",
+      "grievance"
+    ],
+    "local_path": "data\\raw\\downloads\\eti-foa.pdf",
+    "skipped": true
+  },
+  {
+    "id": "eti_modern_slavery_guidance",
+    "title": "ETI Base Code Guidance: Modern Slavery",
+    "url": "https://www.ethicaltrade.org/sites/default/files/shared_resources/eti_base_code_guidance_modern_slavery_web.pdf",
+    "type": "pdf",
+    "standard_name": "ETI Base Code",
+    "citation": "ETI Modern Slavery Guidance",
+    "version": "guidance",
+    "tags": [
+      "eti",
+      "forced-labour",
+      "modern-slavery"
+    ],
+    "local_path": "data\\raw\\downloads\\eti-modern-slavery-guidance.pdf",
+    "skipped": false
+  },
+  {
+    "id": "eti_managing_modern_slavery_risks",
+    "title": "Managing Risks Associated with Modern Slavery",
+    "url": "https://www.ethicaltrade.org/sites/default/files/shared_resources/Managing%20risks%20associated%20with%20modern%20slavery.pdf",
+    "type": "pdf",
+    "standard_name": "ETI Base Code",
+    "citation": "Managing Risks Associated with Modern Slavery",
+    "version": "guidance",
+    "tags": [
+      "eti",
+      "forced-labour",
+      "due-diligence"
+    ],
+    "local_path": "data\\raw\\downloads\\eti-managing-modern-slavery-risks.pdf",
+    "skipped": false
+  },
+  {
+    "id": "eti_health_safety_discussion_sheet",
+    "title": "ETI Discussion Sheet on Factory Health and Safety",
+    "url": "https://www.ethicaltrade.org/sites/default/files/shared_resources/Discussion%20Sheet%20on%20Health%20and%20Safety%20%28Covid-19%29.pdf",
+    "type": "pdf",
+    "standard_name": "ETI Base Code",
+    "citation": "ETI Factory Health and Safety Discussion Sheet",
+    "version": "guidance",
+    "tags": [
+      "eti",
+      "health-and-safety",
+      "worker-protection"
+    ],
+    "local_path": "data\\raw\\downloads\\eti-health-safety-discussion-sheet.pdf",
+    "skipped": false
+  },
+  {
+    "id": "amfori_bsci_page",
+    "title": "amfori BSCI Overview Page",
+    "url": "https://www.amfori.org/amfori-bsci/",
+    "type": "html",
+    "standard_name": "amfori BSCI",
+    "citation": "amfori BSCI overview",
+    "version": "live-page",
+    "tags": [
+      "bsci",
+      "overview",
+      "performance-areas"
+    ],
+    "local_path": "data\\raw\\downloads\\amfori-bsci-page.html",
+    "skipped": true
+  },
+  {
+    "id": "amfori_bsci_code",
+    "title": "amfori BSCI Code of Conduct",
+    "url": "https://assets.ctfassets.net/8122zj5k3sy9/16Ol0xiTosLNUSvnX0pSSI/89b9398d62f879c54cee386603d2bee8/amfori-bsci-code-of-conduct-english-december-2021-v2-2-1.pdf",
+    "type": "pdf",
+    "standard_name": "amfori BSCI",
+    "citation": "amfori BSCI Code of Conduct",
+    "version": "2021-v2.2.1",
+    "tags": [
+      "bsci",
+      "code-of-conduct"
+    ],
+    "local_path": "data\\raw\\downloads\\amfori-bsci-code.pdf",
+    "skipped": true
+  },
+  {
+    "id": "amfori_bsci_system_manual",
+    "title": "amfori BSCI System Manual",
+    "url": "https://www.amfori.org/uploads/2025/06/amfori-BSCI-System-Manual-FULL-1.pdf",
+    "type": "pdf",
+    "standard_name": "amfori BSCI",
+    "citation": "amfori BSCI System Manual",
+    "version": "2025-06",
+    "tags": [
+      "bsci",
+      "system-manual",
+      "audits"
+    ],
+    "local_path": "data\\raw\\downloads\\amfori-bsci-system-manual.pdf",
+    "skipped": true
+  },
+  {
+    "id": "amfori_bsci_performance_areas",
+    "title": "amfori BSCI 13 Performance Areas Overview",
+    "url": "https://www.amfori.org/news/improve-your-understanding-of-the-amfori-bsci-13-performance-areas/",
+    "type": "html",
+    "standard_name": "amfori BSCI",
+    "citation": "amfori BSCI 13 Performance Areas",
+    "version": "live-page",
+    "tags": [
+      "bsci",
+      "performance-areas"
+    ],
+    "local_path": "data\\raw\\downloads\\amfori-bsci-performance-areas.html",
+    "skipped": true
+  },
+  {
+    "id": "amfori_bsci_social_risk_assessment",
+    "title": "amfori BSCI Social Risk Assessment for Business Partners",
+    "url": "https://www.amfori.org/uploads/2026/02/SRA-Guide-BPs-English-FINAL.pdf",
+    "type": "pdf",
+    "standard_name": "amfori BSCI",
+    "citation": "amfori BSCI Social Risk Assessment Guide",
+    "version": "2026-02",
+    "tags": [
+      "bsci",
+      "social-risk",
+      "business-partners"
+    ],
+    "local_path": "data\\raw\\downloads\\amfori-bsci-social-risk-assessment.pdf",
+    "skipped": false
+  },
+  {
+    "id": "amfori_bsci_audit_rating",
+    "title": "amfori BSCI Audit Rating Overview",
+    "url": "https://www.amfori.org/uploads/2025/06/amfori-BSCI-Audit-Rating-guide-FINAL.pdf",
+    "type": "pdf",
+    "standard_name": "amfori BSCI",
+    "citation": "amfori BSCI Audit Rating Overview",
+    "version": "2025-06",
+    "tags": [
+      "bsci",
+      "audit-rating",
+      "social-audits"
+    ],
+    "local_path": "data\\raw\\downloads\\amfori-bsci-audit-rating.pdf",
+    "skipped": false
+  },
+  {
+    "id": "amfori_grievance_mechanism_guide",
+    "title": "amfori BSCI Guide 4: Effective Operational-level Grievance Mechanism",
+    "url": "https://www.amfori.org/amfori-bsci-guide-4-en/",
+    "type": "pdf",
+    "standard_name": "amfori BSCI",
+    "citation": "amfori BSCI Guide 4",
+    "version": "current-public-guide",
+    "tags": [
+      "bsci",
+      "grievance",
+      "worker-involvement"
+    ],
+    "local_path": "data\\raw\\downloads\\amfori-grievance-mechanism-guide.pdf",
+    "skipped": false
+  },
+  {
+    "id": "amfori_speak_for_change_rules",
+    "title": "amfori Speak for Change Rules of Procedure",
+    "url": "https://www.amfori.org/uploads/2025/06/amfori_Speak_for_Change_Rules_of_Procedure_MAY2026.pdf",
+    "type": "pdf",
+    "standard_name": "amfori BSCI",
+    "citation": "amfori Speak for Change Rules of Procedure",
+    "version": "2026-05",
+    "tags": [
+      "bsci",
+      "grievance",
+      "remediation"
+    ],
+    "local_path": "data\\raw\\downloads\\amfori-speak-for-change-rules.pdf",
+    "skipped": false
+  },
+  {
+    "id": "oeko_standard_page",
+    "title": "OEKO-TEX Standard 100 Overview",
+    "url": "https://www.oeko-tex.com/en/our-standards/oeko-tex-standard-100/",
+    "type": "html",
+    "standard_name": "OEKO-TEX Standard 100",
+    "citation": "OEKO-TEX Standard 100 overview",
+    "version": "live-page",
+    "tags": [
+      "oeko-tex",
+      "textile-safety"
+    ],
+    "local_path": "data\\raw\\downloads\\oeko-standard-page.html",
+    "skipped": true
+  },
+  {
+    "id": "oeko_standard_pdf",
+    "title": "OEKO-TEX Standard 100 Standard Document",
+    "url": "https://www.oeko-tex.com/importedmedia/downloadfiles/OEKO-TEX_STANDARD_100_Standard_EN_DE.pdf",
+    "type": "pdf",
+    "standard_name": "OEKO-TEX Standard 100",
+    "citation": "OEKO-TEX Standard 100",
+    "version": "01.2026",
+    "tags": [
+      "oeko-tex",
+      "standard",
+      "harmful-substances"
+    ],
+    "local_path": "data\\raw\\downloads\\oeko-standard-pdf.pdf",
+    "skipped": true
+  },
+  {
+    "id": "oeko_factsheet",
+    "title": "OEKO-TEX Standard 100 Factsheet",
+    "url": "https://www.oeko-tex.com/fileadmin/user_upload/Marketing_Materialien/STANDARD_100/Factsheet/STANDARD_100/OEKO-TEX_STANDARD_100_Factsheet_EN.pdf",
+    "type": "pdf",
+    "standard_name": "OEKO-TEX Standard 100",
+    "citation": "OEKO-TEX Standard 100 Factsheet",
+    "version": "01.2023",
+    "tags": [
+      "oeko-tex",
+      "factsheet"
+    ],
+    "local_path": "data\\raw\\downloads\\oeko-factsheet.pdf",
+    "skipped": true
+  },
+  {
+    "id": "oeko_faq",
+    "title": "OEKO-TEX Standard 100 FAQ",
+    "url": "https://www.oeko-tex.com/fileadmin/user_upload/Marketing_Materialien/STANDARD_100/FAQs/FAQ_STANDARD_100_EN_ES_01.2019.pdf",
+    "type": "pdf",
+    "standard_name": "OEKO-TEX Standard 100",
+    "citation": "OEKO-TEX Standard 100 FAQ",
+    "version": "01.2019",
+    "tags": [
+      "oeko-tex",
+      "faq"
+    ],
+    "local_path": "data\\raw\\downloads\\oeko-faq.pdf",
+    "skipped": true
+  },
+  {
+    "id": "oeko_application",
+    "title": "OEKO-TEX Standard 100 Application",
+    "url": "https://www.oeko-tex.com/fileadmin/user_upload/Marketing_Materialien/STANDARD_100/Application/OEKO-TEX_STANDARD_100_Application_EN.pdf",
+    "type": "pdf",
+    "standard_name": "OEKO-TEX Standard 100",
+    "citation": "OEKO-TEX Standard 100 Application",
+    "version": "01.2026",
+    "tags": [
+      "oeko-tex",
+      "application",
+      "certification"
+    ],
+    "local_path": "data\\raw\\downloads\\oeko-application.pdf",
+    "skipped": false
+  },
+  {
+    "id": "oeko_declaration_conformity",
+    "title": "OEKO-TEX Standard 100 Declaration of Conformity",
+    "url": "https://www.oeko-tex.com/fileadmin/user_upload/Marketing_Materialien/STANDARD_100/Declaration/OEKO-TEX_STANDARD_100_Declaration_of_Conformity_EN.pdf",
+    "type": "pdf",
+    "standard_name": "OEKO-TEX Standard 100",
+    "citation": "OEKO-TEX Standard 100 Declaration of Conformity",
+    "version": "03.03.2026",
+    "tags": [
+      "oeko-tex",
+      "declaration",
+      "certification"
+    ],
+    "local_path": "data\\raw\\downloads\\oeko-declaration-conformity.pdf",
+    "skipped": false
+  },
+  {
+    "id": "punjab_factories_act",
+    "title": "The Factories Act, 1934 (Punjab Code edition)",
+    "url": "https://punjabcode.punjab.gov.pk/uploads/articles/13-factories-act-1934-doc-pdf.pdf",
+    "type": "pdf",
+    "standard_name": "Punjab Labour Law",
+    "citation": "Factories Act, 1934",
+    "version": "punjab-code",
+    "jurisdiction": "Punjab, Pakistan",
+    "tags": [
+      "pakistan",
+      "punjab",
+      "factories-act"
+    ],
+    "local_path": "data\\raw\\downloads\\punjab-factories-act.pdf",
+    "skipped": true
+  },
+  {
+    "id": "punjab_factories_rules",
+    "title": "Punjab Factories Rules 1978",
+    "url": "https://clr.org.pk/Labour-Laws/Punjab/Punjab-Factories-Rules-1978-pdf.pdf",
+    "type": "pdf",
+    "standard_name": "Punjab Labour Law",
+    "citation": "Punjab Factories Rules 1978",
+    "version": "1978",
+    "jurisdiction": "Punjab, Pakistan",
+    "tags": [
+      "pakistan",
+      "punjab",
+      "factory-rules"
+    ],
+    "local_path": "data\\raw\\downloads\\punjab-factories-rules.pdf",
+    "skipped": true
+  },
+  {
+    "id": "punjab_osh_act",
+    "title": "Punjab Occupational Safety and Health Act 2019",
+    "url": "https://labour.punjab.gov.pk/system/files/the-punjab-occupational-safety-and-health-act-2019-docx-pdf_4.pdf",
+    "type": "pdf",
+    "standard_name": "Punjab Labour Law",
+    "citation": "Punjab Occupational Safety and Health Act 2019",
+    "version": "2019",
+    "jurisdiction": "Punjab, Pakistan",
+    "tags": [
+      "pakistan",
+      "punjab",
+      "osh"
+    ],
+    "local_path": "data\\raw\\downloads\\punjab-osh-act.pdf",
+    "skipped": true
+  },
+  {
+    "id": "punjab_minimum_wages",
+    "title": "Punjab Minimum Wages Act 2019",
+    "url": "https://punjabcode.punjab.gov.pk/uploads/articles/the-punjab-minimum-wages-act-2019-docx-pdf.pdf",
+    "type": "pdf",
+    "standard_name": "Punjab Labour Law",
+    "citation": "Punjab Minimum Wages Act 2019",
+    "version": "2019",
+    "jurisdiction": "Punjab, Pakistan",
+    "tags": [
+      "pakistan",
+      "punjab",
+      "minimum-wages"
+    ],
+    "local_path": "data\\raw\\downloads\\punjab-minimum-wages.pdf",
+    "skipped": true
+  },
+  {
+    "id": "punjab_payment_of_wages",
+    "title": "Payment of Wages Act, 1936 (Punjab Code edition)",
+    "url": "https://punjabcode.punjab.gov.pk/uploads/articles/payment_of_wages_act-_1936-pdf.pdf",
+    "type": "pdf",
+    "standard_name": "Punjab Labour Law",
+    "citation": "Payment of Wages Act, 1936",
+    "version": "punjab-code",
+    "jurisdiction": "Punjab, Pakistan",
+    "tags": [
+      "pakistan",
+      "punjab",
+      "wages"
+    ],
+    "local_path": "data\\raw\\downloads\\punjab-payment-of-wages.pdf",
+    "skipped": true
+  },
+  {
+    "id": "punjab_standing_orders",
+    "title": "Industrial and Commercial Employment (Standing Orders) Ordinance, 1968",
+    "url": "https://punjabcode.punjab.gov.pk/uploads/articles/39-industrial-and-commercial-employment-standing-orders-ordinance-1968-vi-of-1968-pdf.pdf",
+    "type": "pdf",
+    "standard_name": "Punjab Labour Law",
+    "citation": "Standing Orders Ordinance, 1968",
+    "version": "punjab-code",
+    "jurisdiction": "Punjab, Pakistan",
+    "tags": [
+      "pakistan",
+      "punjab",
+      "standing-orders"
+    ],
+    "local_path": "data\\raw\\downloads\\punjab-standing-orders.pdf",
+    "skipped": true
+  },
+  {
+    "id": "punjab_labour_policy_2018",
+    "title": "Punjab Labour Policy 2018",
+    "url": "https://labour.punjab.gov.pk/system/files/Labour%20Policty%202018.pdf",
+    "type": "pdf",
+    "standard_name": "Punjab Labour Law",
+    "citation": "Punjab Labour Policy 2018",
+    "version": "2018",
+    "jurisdiction": "Punjab, Pakistan",
+    "tags": [
+      "pakistan",
+      "punjab",
+      "labour-policy"
+    ],
+    "local_path": "data\\raw\\downloads\\punjab-labour-policy-2018.pdf",
+    "skipped": false
+  },
+  {
+    "id": "punjab_legal_framework_page",
+    "title": "Punjab Labour Legal Framework Page",
+    "url": "https://labour.punjab.gov.pk/legal-framework",
+    "type": "html",
+    "standard_name": "Punjab Labour Law",
+    "citation": "Punjab labour legal framework",
+    "version": "live-page",
+    "jurisdiction": "Punjab, Pakistan",
+    "tags": [
+      "pakistan",
+      "punjab",
+      "legal-framework"
+    ],
+    "local_path": "data\\raw\\downloads\\punjab-legal-framework-page.html",
+    "skipped": false
+  },
+  {
+    "id": "sindh_factories_act",
+    "title": "Sindh Factories Act 2015",
+    "url": "https://clr.org.pk/Labour-Laws/Sindh/Sindh%20Factories%20Act%202015.pdf",
+    "type": "pdf",
+    "standard_name": "Sindh Labour Law",
+    "citation": "Sindh Factories Act 2015",
+    "version": "2015",
+    "jurisdiction": "Sindh, Pakistan",
+    "tags": [
+      "pakistan",
+      "sindh",
+      "factories-act"
+    ],
+    "local_path": "data\\raw\\downloads\\sindh-factories-act.pdf",
+    "skipped": true
+  },
+  {
+    "id": "sindh_osh_act",
+    "title": "Sindh Occupational Safety and Health Act 2017",
+    "url": "https://clr.org.pk/Labour-Laws/Sindh/Sindh%20Occupational%20Safety%20and%20Health%20Act%202017.pdf",
+    "type": "pdf",
+    "standard_name": "Sindh Labour Law",
+    "citation": "Sindh Occupational Safety and Health Act 2017",
+    "version": "2017",
+    "jurisdiction": "Sindh, Pakistan",
+    "tags": [
+      "pakistan",
+      "sindh",
+      "osh"
+    ],
+    "local_path": "data\\raw\\downloads\\sindh-osh-act.pdf",
+    "skipped": true
+  }
+]

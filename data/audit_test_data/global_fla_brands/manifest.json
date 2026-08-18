@@ -1,0 +1,626 @@
+[
+  {
+    "assessment_id": "2694",
+    "source_brands": [
+      "adidas"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/adidas/"
+    ],
+    "summary": "Factory Assessment adidas Cambodia 2025 Report: 2694 CAP: 2694 Published: 2025",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=63B46C9E-364A-4CFB-B39C-F9ABB87CEF80",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2694/report.pdf",
+    "bytes": 150412,
+    "sha256": "be6ef5ebad14aafd47c75916e79d6a8eefa3ac74caad898c744bb6758bbe1aa5",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2694",
+    "source_brands": [
+      "adidas"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/adidas/"
+    ],
+    "summary": "Factory Assessment adidas Cambodia 2025 Report: 2694 CAP: 2694 Published: 2025",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=EB065763-D1F6-4D2D-9DEC-B62253A37993",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2694/cap.xlsx",
+    "bytes": 65970,
+    "sha256": "3639d7e9d0c0d607053f3ac99f5c2074ccb2cb89740f38767404e889773c3bc8",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2719",
+    "source_brands": [
+      "adidas"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/adidas/"
+    ],
+    "summary": "Factory Assessment adidas El Salvador 2025 Report: 2719 CAP: 2719 Published: 2025",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=F1A9DD6F-1BDE-4E0F-862F-CFCD34F5AD17",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2719/report.pdf",
+    "bytes": 114992,
+    "sha256": "7856d1db86bb8cd194d50ea16e2588c04d77c755c43c30bfaf2f359774653a70",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2719",
+    "source_brands": [
+      "adidas"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/adidas/"
+    ],
+    "summary": "Factory Assessment adidas El Salvador 2025 Report: 2719 CAP: 2719 Published: 2025",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=FE117D18-6B45-4623-92EF-DF99A17A5262",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2719/cap.xlsx",
+    "bytes": 56774,
+    "sha256": "cead298b1fb6913a3cb17874cf7641ca643cae96d07add603b62b13715544676",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2662",
+    "source_brands": [
+      "adidas"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/adidas/"
+    ],
+    "summary": "Factory Assessment adidas Indonesia 2025 Report: 2662 CAP: 2662 Published: 2025",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=07BF5FA9-CEFF-47D0-898A-7682C807274C",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2662/report.pdf",
+    "bytes": 175198,
+    "sha256": "05215c8c9d0286f59ff511588a886522a38bb6ecf9111f4dc25253f0cc4aa08f",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2662",
+    "source_brands": [
+      "adidas"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/adidas/"
+    ],
+    "summary": "Factory Assessment adidas Indonesia 2025 Report: 2662 CAP: 2662 Published: 2025",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=645A6A58-AF59-4D0A-8557-DDFC6E9B77D7",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2662/cap.xlsx",
+    "bytes": 103266,
+    "sha256": "3322ec6bc588e6b5573dd33b0925f3631aff10a4ee147a7b72c8abb53b3d07f2",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2733",
+    "source_brands": [
+      "nike"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/nike/"
+    ],
+    "summary": "Factory Assessment Nike India 2025 Report: 2733 CAP: 2733 Published: 2025",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=60ED3997-0E11-4E3E-B474-3A49368CE763",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2733/report.pdf",
+    "bytes": 212341,
+    "sha256": "9f00279f493c637e9820319ca4b70b33b49e338693b7f16268a9160744d483bf",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2733",
+    "source_brands": [
+      "nike"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/nike/"
+    ],
+    "summary": "Factory Assessment Nike India 2025 Report: 2733 CAP: 2733 Published: 2025",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=8B74B4DD-CE7D-4814-9815-A5F89B394ABE",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2733/cap.xlsx",
+    "bytes": 80450,
+    "sha256": "bf70636e1cb6be8053f545c382314fec62326860ed83810773ba73381470cea3",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2748",
+    "source_brands": [
+      "nike"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/nike/"
+    ],
+    "summary": "Factory Assessment Nike Malaysia 2025 Report: 2748 CAP: 2748 Published: 2025",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=112F02C1-59AA-49EF-8288-5213044F75F5",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2748/report.pdf",
+    "bytes": 117421,
+    "sha256": "cb1f3d4061adc40080764900b5138f1472bb4caf4012719f64f1724d9099b0b6",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2748",
+    "source_brands": [
+      "nike"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/nike/"
+    ],
+    "summary": "Factory Assessment Nike Malaysia 2025 Report: 2748 CAP: 2748 Published: 2025",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=69CE3A55-855C-429C-9D78-09D08E170664",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2748/cap.xlsx",
+    "bytes": 54999,
+    "sha256": "7ebcbd78b9451d4f45a627063606eb3d6a746a1adb72b0bd700d58cb79df0769",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2752",
+    "source_brands": [
+      "nike",
+      "under_armour"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/nike/",
+      "https://www.fairlabor.org/member/under-armour/"
+    ],
+    "summary": "Factory Assessment Nike, Under Armour, Inc. Philippines 2025 Report: 2752 CAP: 2752 Published: 2025",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=7AC22723-3584-40BB-9342-9A806A869FF2",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2752/report.pdf",
+    "bytes": 160208,
+    "sha256": "bb08cc19fc82a1fe6f20ee992bcde3d6376d66d420f05504417202dd63b69a7b",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2752",
+    "source_brands": [
+      "nike",
+      "under_armour"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/nike/",
+      "https://www.fairlabor.org/member/under-armour/"
+    ],
+    "summary": "Factory Assessment Nike, Under Armour, Inc. Philippines 2025 Report: 2752 CAP: 2752 Published: 2025",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=A542DB3C-54A7-478B-82D7-1933ED0000FB",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2752/cap.xlsx",
+    "bytes": 67292,
+    "sha256": "d71e64fd71a43fab931ee16c825ce2a9afced934467698356142b8eebbefc77a",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2675",
+    "source_brands": [
+      "puma",
+      "uniqlo_fast_retailing"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/puma-se/",
+      "https://www.fairlabor.org/member/fast-retailing/"
+    ],
+    "summary": "Factory Assessment Fast Retailing Co., Ltd., PUMA SE Vietnam 2025 Report: 2675 CAP: 2675 Published: 2025",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=15B78831-03CD-49F8-9E17-6C323C802007",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2675/report.pdf",
+    "bytes": 166714,
+    "sha256": "f445ad1110f6d211153bf19f30f586b9fb5cb68ffdb9d21563b900e19d4c8492",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2675",
+    "source_brands": [
+      "puma",
+      "uniqlo_fast_retailing"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/puma-se/",
+      "https://www.fairlabor.org/member/fast-retailing/"
+    ],
+    "summary": "Factory Assessment Fast Retailing Co., Ltd., PUMA SE Vietnam 2025 Report: 2675 CAP: 2675 Published: 2025",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=8E03B4F1-F119-466B-96B2-BA45DAB0A935",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2675/cap.xlsx",
+    "bytes": 64825,
+    "sha256": "a0dbafd3d37daf55a6eb7819cc2f4948ae99b24012842732fd5df9c9645a4284",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2711",
+    "source_brands": [
+      "puma"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/puma-se/"
+    ],
+    "summary": "Factory Assessment PUMA SE Cambodia 2025 Report: 2711 CAP: 2711 Published: 2025",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=6BDAE79A-AD31-4FE0-A333-EF3E218F14D3",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2711/report.pdf",
+    "bytes": 191089,
+    "sha256": "ec6b12dedb01890316cba910ec87bfa7ad3dca4c052a092fc6ad9768a79a1ac4",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2711",
+    "source_brands": [
+      "puma"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/puma-se/"
+    ],
+    "summary": "Factory Assessment PUMA SE Cambodia 2025 Report: 2711 CAP: 2711 Published: 2025",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=673D22E4-4A2F-48D7-9A6A-CBBD3178C94E",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2711/cap.xlsx",
+    "bytes": 71679,
+    "sha256": "f0f5904e77ca22348cffadc71a7c7dacc95f11b0c0c21b291fb9bd77199ff212",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2715",
+    "source_brands": [
+      "puma"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/puma-se/"
+    ],
+    "summary": "Factory Assessment Gymshark Ltd., PUMA SE Türkiye 2025 Report: 2715 CAP: 2715 Published: 2025",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=39298212-ADC5-4789-8086-87B69BC70126",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2715/report.pdf",
+    "bytes": 146564,
+    "sha256": "3643efdeae9f486763321d1e796a784aa4787ff8ea0f908a36052529d31e7f88",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2715",
+    "source_brands": [
+      "puma"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/puma-se/"
+    ],
+    "summary": "Factory Assessment Gymshark Ltd., PUMA SE Türkiye 2025 Report: 2715 CAP: 2715 Published: 2025",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=79EFF6DD-CFC1-4A22-AB7B-E8F5FF6B8FB1",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2715/cap.xlsx",
+    "bytes": 61092,
+    "sha256": "09c59d66d92141a9235022ec653cea877fe73ef1956a6b786aab385520eae126",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2599",
+    "source_brands": [
+      "patagonia",
+      "under_armour"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/patagonia/",
+      "https://www.fairlabor.org/member/under-armour/"
+    ],
+    "summary": "Factory Assessment adidas, Fanatics Apparel LLC, Nike, Patagonia, Under Armour, Inc. El Salvador 2024 Report: 2599 CAP: 2599 Published: 2024",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=4E2F18AD-78A1-4D67-A34B-C774391DEC90",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2599/report.pdf",
+    "bytes": 166716,
+    "sha256": "19f85f69cc8d6e69bdcf258d7b9e8f8aa479dc344897c2ff4fa21406e148a253",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2599",
+    "source_brands": [
+      "patagonia",
+      "under_armour"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/patagonia/",
+      "https://www.fairlabor.org/member/under-armour/"
+    ],
+    "summary": "Factory Assessment adidas, Fanatics Apparel LLC, Nike, Patagonia, Under Armour, Inc. El Salvador 2024 Report: 2599 CAP: 2599 Published: 2024",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=E726B9D7-C7B0-47E7-A2C2-6FB340314FC0",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2599/cap.xlsx",
+    "bytes": 69133,
+    "sha256": "f3d594f5ee6b8b2f665cb02a4ca03a81af741630b063e709a9f23846cdc0035d",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2378",
+    "source_brands": [
+      "patagonia"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/patagonia/"
+    ],
+    "summary": "Factory Assessment Patagonia Thailand 2023 Report: 2378 CAP: 2378 Published: 2023",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=37FC6528-0932-4299-8437-361F6D9CC1D3",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2378/report.pdf",
+    "bytes": 117897,
+    "sha256": "3a4af9cee4efed0e1521f27c40cba18c595b356e7cc0c8334a7086cefe3f5a48",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2378",
+    "source_brands": [
+      "patagonia"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/patagonia/"
+    ],
+    "summary": "Factory Assessment Patagonia Thailand 2023 Report: 2378 CAP: 2378 Published: 2023",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=68DD423A-F97C-44FE-85F9-B446B80FD534",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2378/cap.xlsx",
+    "bytes": 55918,
+    "sha256": "dd17cb8e56e5d0af278732cfa38582ff5387cb0c706d05f10b452c912f79d79d",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2166",
+    "source_brands": [
+      "patagonia"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/patagonia/"
+    ],
+    "summary": "Factory Assessment Amer Sports, Patagonia Vietnam 2022 Report: 2166 CAP: 2166 Published: 2022",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=2968146B-BD31-42A3-B961-24945F29CAE6",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2166/report.pdf",
+    "bytes": 210098,
+    "sha256": "e761dc1babd092cb371764adbb430e7ceb76f273724d82819eac39cff7860751",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2166",
+    "source_brands": [
+      "patagonia"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/patagonia/"
+    ],
+    "summary": "Factory Assessment Amer Sports, Patagonia Vietnam 2022 Report: 2166 CAP: 2166 Published: 2022",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=0DDD961C-8266-4597-87D8-DC467A3D5E5A",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2166/cap.xlsx",
+    "bytes": 72919,
+    "sha256": "5012b64755719e26f42ba9c15353bea6eceed14c7bc223302a5afd24e15ba0a0",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2341",
+    "source_brands": [
+      "under_armour"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/under-armour/"
+    ],
+    "summary": "Factory Assessment adidas, Under Armour, Inc. Philippines 2023 Report: 2341 CAP: 2341 Published: 2023",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=4F7EF186-83E2-4878-987F-ADDC79FB7C4F",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2341/report.pdf",
+    "bytes": 138864,
+    "sha256": "3eb6a786525d2adedcfff33c2c6bfd55f9be3e7acee7803ad1bbbe71b6e8ac13",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2341",
+    "source_brands": [
+      "under_armour"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/under-armour/"
+    ],
+    "summary": "Factory Assessment adidas, Under Armour, Inc. Philippines 2023 Report: 2341 CAP: 2341 Published: 2023",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=6C02D5AA-0023-406A-B375-3CF1DE0A45BA",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2341/cap.xlsx",
+    "bytes": 58201,
+    "sha256": "3893f36069a05819eeb827ad8f078b514221281db47a779642a10b28c3f8b36f",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2726",
+    "source_brands": [
+      "uniqlo_fast_retailing"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/fast-retailing/"
+    ],
+    "summary": "Factory Assessment Fast Retailing Co., Ltd. Malaysia 2025 Report: 2726 CAP: 2726 Published: 2025",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=B6C268F3-7482-464F-BAA5-ACC8EF22BE97",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2726/report.pdf",
+    "bytes": 114194,
+    "sha256": "7892c6fcc189ea6c17fb2088c3791910594b8104ec21f2057e9d564924e548f4",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2726",
+    "source_brands": [
+      "uniqlo_fast_retailing"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/fast-retailing/"
+    ],
+    "summary": "Factory Assessment Fast Retailing Co., Ltd. Malaysia 2025 Report: 2726 CAP: 2726 Published: 2025",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=50BEB0D9-C6F4-4F81-9711-811ED4391917",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2726/cap.xlsx",
+    "bytes": 54507,
+    "sha256": "63ee04228ae18cc3dcb47a65eb4b78ee9d827aea017ed44c7268a33e535215b4",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2747",
+    "source_brands": [
+      "uniqlo_fast_retailing"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/fast-retailing/"
+    ],
+    "summary": "Factory Assessment Fast Retailing Co., Ltd. Bangladesh 2025 Report: 2747 CAP: 2747 Published: 2025",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=F9F7A1EA-F129-478B-BA39-D255FEDE6290",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2747/report.pdf",
+    "bytes": 181694,
+    "sha256": "a242cebbfacad0c2550c18c51d9cd00cce1db9541e5791804c68dd4e1160b521",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2747",
+    "source_brands": [
+      "uniqlo_fast_retailing"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/fast-retailing/"
+    ],
+    "summary": "Factory Assessment Fast Retailing Co., Ltd. Bangladesh 2025 Report: 2747 CAP: 2747 Published: 2025",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=75A635EE-CF09-415A-B82E-8258221006CC",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2747/cap.xlsx",
+    "bytes": 66751,
+    "sha256": "356d1a0e40f9ddf9b8294a46a89e7b3c96cbe63af8ee22ed1e0f68c8da857c32",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2753",
+    "source_brands": [
+      "gildan"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/gildan-activewear-inc/"
+    ],
+    "summary": "Factory Assessment Gildan Activewear Inc Nicaragua 2025 Report: 2753 CAP: 2753 Published: 2025",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=451E4F7E-C445-4490-B1EE-3E6BAE902EB5",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2753/report.pdf",
+    "bytes": 125438,
+    "sha256": "5d81f4911f2a632dd1cd818d1476cea6256f036b169a4874248fc63f573bd51a",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2753",
+    "source_brands": [
+      "gildan"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/gildan-activewear-inc/"
+    ],
+    "summary": "Factory Assessment Gildan Activewear Inc Nicaragua 2025 Report: 2753 CAP: 2753 Published: 2025",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=3490DE1E-28CD-42A1-9D90-A5CF8795142C",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2753/cap.xlsx",
+    "bytes": 58437,
+    "sha256": "c536585260d060a4d371f93cf18c9427e58b3bbbb430ffc97f86a7db19726993",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2602",
+    "source_brands": [
+      "gildan"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/gildan-activewear-inc/"
+    ],
+    "summary": "Factory Assessment adidas, Fast Retailing Co., Ltd., Gildan Activewear Inc, PUMA SE Vietnam 2024 Report: 2602 CAP: 2602 Published: 2024",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=50ECA798-AF01-41B6-8BE8-DAF245368363",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2602/report.pdf",
+    "bytes": 121115,
+    "sha256": "351cf7f820ef4f07a0874b3d46eaac0a19ed81c3efbb0efbc9e0d792523abe26",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2602",
+    "source_brands": [
+      "gildan"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/gildan-activewear-inc/"
+    ],
+    "summary": "Factory Assessment adidas, Fast Retailing Co., Ltd., Gildan Activewear Inc, PUMA SE Vietnam 2024 Report: 2602 CAP: 2602 Published: 2024",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=F96365C2-8E0F-4374-A1B2-615310BB6D47",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2602/cap.xlsx",
+    "bytes": 59083,
+    "sha256": "dcb8f48eb5dad9c2c413ddd271c29e9653d25a56a82215416e8f4f27bcdfb4aa",
+    "status": "downloaded"
+  },
+  {
+    "assessment_id": "2399",
+    "source_brands": [
+      "gildan"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/gildan-activewear-inc/"
+    ],
+    "summary": "Factory Assessment Gildan Activewear Inc Honduras 2023 Report: 2399 CAP: 2399 Published: 2023",
+    "document_type": "report",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=0194608A-093C-4576-B907-DF8C4E24FFF9",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2399/report.pdf",
+    "bytes": 129673,
+    "sha256": "a620ff69195a36054471dea6f7cf3b10e476f2b80f82cf5d4de3e36029058ae9",
+    "status": "existing"
+  },
+  {
+    "assessment_id": "2399",
+    "source_brands": [
+      "gildan"
+    ],
+    "source_pages": [
+      "https://www.fairlabor.org/member/gildan-activewear-inc/"
+    ],
+    "summary": "Factory Assessment Gildan Activewear Inc Honduras 2023 Report: 2399 CAP: 2399 Published: 2023",
+    "document_type": "cap",
+    "source_url": "https://fairlabordatahub.org/FileHandler.ashx?id=FAA6D27D-F225-4287-86BB-0A7BBE397BE8",
+    "error": "",
+    "local_path": "data/audit_test_data/global_fla_brands/assessment_2399/cap.xlsx",
+    "bytes": 57970,
+    "sha256": "ddbc8a110fe9f6e452ba446f4203bc9d87a851c99f0be2030bcbf7453a6f9354",
+    "status": "downloaded"
+  }
+]

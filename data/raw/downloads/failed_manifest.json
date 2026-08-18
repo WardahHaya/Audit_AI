@@ -1,0 +1,82 @@
+[
+  {
+    "id": "wrap_pre_audit_self_assessment",
+    "title": "WRAP Pre-Audit Self-Assessment",
+    "url": "https://wrapcompliance.org/wp-content/uploads/2022/01/WRAP-Pre-Audit-Self-Assessment-January-2022-Edition-English-Protected.docx",
+    "type": "docx",
+    "standard_name": "WRAP",
+    "citation": "WRAP Pre-Audit Self-Assessment",
+    "version": "2022-01",
+    "tags": [
+      "wrap",
+      "self-assessment",
+      "pre-audit"
+    ],
+    "error": "Client error '403 Forbidden' for url 'https://wrapcompliance.org/wp-content/uploads/2022/01/WRAP-Pre-Audit-Self-Assessment-January-2022-Edition-English-Protected.docx'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  },
+  {
+    "id": "wrap_safe_factory_operations",
+    "title": "AAFA / WRAP Safe Factory Operations in a Post-Pandemic Environment",
+    "url": "https://wrapcompliance.org/wp-content/uploads/2022/08/AAFA-WRAP-Guidance-on-Safe-Factory-Operations-in-a-Post-Pandemic-Environment.pdf",
+    "type": "pdf",
+    "standard_name": "WRAP",
+    "citation": "AAFA / WRAP Safe Factory Operations Guidance",
+    "version": "2022-08",
+    "tags": [
+      "wrap",
+      "health-and-safety",
+      "worker-communication"
+    ],
+    "error": "Client error '403 Forbidden' for url 'https://wrapcompliance.org/wp-content/uploads/2022/08/AAFA-WRAP-Guidance-on-Safe-Factory-Operations-in-a-Post-Pandemic-Environment.pdf'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  },
+  {
+    "id": "sindh_labour_laws_page",
+    "title": "Sindh Labour Laws and Policies Directory",
+    "url": "https://dglabour.gos.pk/laws-policies/",
+    "type": "html",
+    "standard_name": "Sindh Labour Law",
+    "citation": "DG Labour Sindh laws and policies",
+    "version": "live-page",
+    "jurisdiction": "Sindh, Pakistan",
+    "tags": [
+      "pakistan",
+      "sindh",
+      "labour-laws"
+    ],
+    "error": "Client error '404 Not Found' for url 'https://dglabour.gos.pk/laws-policies/'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+  },
+  {
+    "id": "cbp_forced_labor_importer_guidance",
+    "title": "CBP Forced Labor Enforcement Operational Guidance for Importers",
+    "url": "https://www.cbp.gov/sites/default/files/2026-06/fld_importer_guidance_final_06092026_0.pdf",
+    "type": "pdf",
+    "standard_name": "U.S. Import Compliance",
+    "citation": "CBP Forced Labor Enforcement Operational Guidance for Importers",
+    "version": "2026-06",
+    "jurisdiction": "United States",
+    "tags": [
+      "buyer-side",
+      "forced-labor",
+      "uflpa",
+      "importer-guidance"
+    ],
+    "error": "Client error '403 Forbidden' for url 'https://www.cbp.gov/sites/default/files/2026-06/fld_importer_guidance_final_06092026_0.pdf'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  },
+  {
+    "id": "dhs_uflpa_strategy_2025",
+    "title": "2025 Updates to the UFLPA Strategy",
+    "url": "https://www.dhs.gov/sites/default/files/2025-08/25_0819_plcy_uflpa-strategy-2025-update-508.pdf",
+    "type": "pdf",
+    "standard_name": "U.S. Import Compliance",
+    "citation": "2025 Updates to the UFLPA Strategy",
+    "version": "2025-08",
+    "jurisdiction": "United States",
+    "tags": [
+      "buyer-side",
+      "forced-labor",
+      "uflpa",
+      "strategy"
+    ],
+    "error": "Client error '403 Forbidden' for url 'https://www.dhs.gov/sites/default/files/2025-08/25_0819_plcy_uflpa-strategy-2025-update-508.pdf'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(./.venv/Scripts/python.exe -m pytest -q)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://127.0.0.1:8000/)",
+      "Bash(curl -s -X POST http://127.0.0.1:8000/api/auth/login -H \"Content-Type: application/json\" -d '{\"email\":\"admin@auditready.com\",\"password\":\"audit123\"}' -c /tmp/ar_cookies.txt)",
+      "Bash(docker --version)",
+      "Bash(docker compose *)",
+      "Bash(ollama --version)",
+      "mcp__playwright__browser_navigate"
+    ]
+  }
+}

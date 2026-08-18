@@ -1,0 +1,87 @@
+{
+  "train_fraction": 0.8,
+  "datasets": {
+    "bangladesh_accord": {
+      "train_units": [
+        "CORETEX_APPARELS_LTD",
+        "Nassa_Spinners_and_Garments_Ltd__Extension",
+        "Gardenia_Wears_Ltd",
+        "Century_Apparels_Ltd_-_Unit_2",
+        "Sawftex_Ltd",
+        "United_Knit_Wears__Pvt.__Ltd",
+        "FUTURE_CLOTHING_LTD",
+        "Taratex_Fashion_Limited",
+        "Lakhsma_Innerwear_Ltd",
+        "Nassa_Spinners_and_Garments_Ltd",
+        "Ingenitex__BD__Limited",
+        "Century_Apparels_Ltd",
+        "HR_TEXTILE_FASHION_KNIT",
+        "Remi_Holdings_Ltd_-Unit_2__previously_A.M.C.S._Textiles_Limited",
+        "Unique_Designers",
+        "HANDZ_CLOTHING_BD_LTD"
+      ],
+      "test_units": [
+        "Bestec_BD_Ltd.__Previously_PRM_FASHIONS_PVT._LTD",
+        "Mahadi_Fashion__Pvt.__Ltd",
+        "ULTIMATE_FASHIONS_LIMITED",
+        "ULTIMATE_FASHIONS_LIMITED__EXTENSION"
+      ],
+      "train_documents": 70,
+      "test_documents": 17
+    },
+    "pakistan_accord": {
+      "train_units": [
+        "K.M_Ashraf___Sons",
+        "First_American_Corporation__Pvt.__Ltd",
+        "Magna_Manufacturing__New_Site",
+        "Select_Enterprise",
+        "Eclipse_Sports__Pvt.__Ltd",
+        "Smart_Apparel__Pvt.__Ltd",
+        "Amtex_Ltd",
+        "A_A_Garments",
+        "FA_Bhatti_Industries",
+        "Interloop_Ltd.__HD05__co-located_w_Interloop_Ltd._Apparel_Park",
+        "TAJ_Industries",
+        "Fashion___Styles",
+        "Agility_Textile__Pvt.__Ltd",
+        "Usman___Sons",
+        "Velocity_Textiles",
+        "M_S_Stylers_International_Ltd._-_Unit_2__Raiwind"
+      ],
+      "test_units": [
+        "Ali_Trading_Company__Pvt.__Ltd",
+        "Arshad_Corporation__Pvt.__Ltd.__Apparel_Division",
+        "Ebrahim_Textile_Mills_Ltd",
+        "Fashion_Knits"
+      ],
+      "train_documents": 64,
+      "test_documents": 17
+    },
+    "global_fla_brands": {
+      "train_units": [
+        "assessment_2378",
+        "assessment_2599",
+        "assessment_2675",
+        "assessment_2719",
+        "assessment_2694",
+        "assessment_2748",
+        "assessment_2726",
+        "assessment_2166",
+        "assessment_2715",
+        "assessment_2662",
+        "assessment_2602",
+        "assessment_2733",
+        "assessment_2752",
+        "assessment_2747"
+      ],
+      "test_units": [
+        "assessment_2341",
+        "assessment_2399",
+        "assessment_2711",
+        "assessment_2753"
+      ],
+      "train_documents": 28,
+      "test_documents": 8
+    }
+  }
+}
