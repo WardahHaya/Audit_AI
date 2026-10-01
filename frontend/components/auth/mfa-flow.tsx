@@ -60,12 +60,15 @@ function MfaFlowInner() {
       <div className="access-heading"><p className="eyebrow">Two-step verification</p><h1>{mode === "challenge" ? "Enter your code" : "Set up authenticator"}</h1><p>{mode === "challenge" ? "Use the six-digit code from your authenticator app." : "Scan once, then enter the generated six-digit code."}</p></div>
       {mode === "enroll" ? (
         <div className="mfa-grid">
-          <div className="qr-card">{uri ? <QRCodeSVG value={uri} size={180} bgColor="transparent" fgColor="#FFFFFF" /> : <div className="qr-skeleton" />}</div>
+          <div className="qr-card">{uri ? <QRCodeSVG value={uri} size={180} bgColor="#FFFFFF" fgColor="#000000" marginSize={4} title="Scan to set up your authenticator" /> : <div className="qr-skeleton" role="status" aria-label="Loading authenticator QR code" />}</div>
           <div className="mfa-copy">
             <p>Scan with Google Authenticator, 1Password, Microsoft Authenticator, or Authy.</p>
             <details className="manual-secret"><summary>Can’t scan the QR code?</summary><code>{secret || "Loading secret..."}</code></details>
           </div>
         </div>
+      ) : null}
+      {mode === "challenge" ? (
+        <p className="form-footnote">Your authenticator is already linked. Open its AuditReady AI entry to get your code. The QR code is shown during initial setup.</p>
       ) : null}
       <form
         action={(formData) => {
@@ -78,7 +81,7 @@ function MfaFlowInner() {
           <input autoComplete="one-time-code" className="input" name="code" inputMode="numeric" pattern="[0-9]{6}" maxLength={6} placeholder="123456" required />
         </label>
         {error ? <p className="form-error">{error}</p> : null}
-        <button className="button button-primary" disabled={busy} type="submit">
+        <button className="button button-primary" disabled={busy || (mode === "enroll" && !uri)} type="submit">
           {busy ? "Verifying..." : mode === "challenge" ? "Verify and Enter" : "Finish Enrollment"}
         </button>
       </form>

@@ -60,27 +60,38 @@ async def main_llm_call(state: AgentState, config) -> AgentState:
             ),
         ]
         draft = (await runtime.ollama_service.invoke_text(messages)).strip()
-        verification = await runtime.ollama_service.invoke_structured(
-            DocumentAnswerVerification,
-            [
-                SystemMessage(content=DOCUMENT_ANSWER_VERIFIER_PROMPT),
-                HumanMessage(
-                    content=json.dumps(
-                        {
-                            "user_request": state["original_query"],
-                            "source_documents": source_documents,
-                            "draft_answer": draft,
-                        },
-                        indent=2,
-                    )
-                ),
-            ],
-        )
-        response = normalize_markdown_tables(verification.verified_answer.strip())
+        verification_failed = False
+        try:
+            verification = await runtime.ollama_service.invoke_structured(
+                DocumentAnswerVerification,
+                [
+                    SystemMessage(content=DOCUMENT_ANSWER_VERIFIER_PROMPT),
+                    HumanMessage(
+                        content=json.dumps(
+                            {
+                                "user_request": state["original_query"],
+                                "source_documents": source_documents,
+                                "draft_answer": draft,
+                            },
+                            indent=2,
+                        )
+                    ),
+                ],
+            )
+            response = normalize_markdown_tables(verification.verified_answer.strip())
+            if not response:
+                raise ValueError("Empty verified answer")
+        except Exception:
+            verification_failed = True
+            response = (
+                "I could not verify the document review, so I have withheld the draft findings. "
+                "Please retry with one document or a smaller section. No compliance conclusions "
+                "have been verified for this request."
+            )
         for token in TOKEN_CHUNK_PATTERN.findall(response):
             await runtime.emitter.token(token)
-        await emit_complete(config, node_name, "Document operation completed")
-        return {"final_response": response, "final_report": None, "response_status": "completed"}
+        await emit_complete(config, node_name, "Document verification unavailable; draft withheld" if verification_failed else "Document operation completed")
+        return {"final_response": response, "final_report": None, "response_status": "verification_failed" if verification_failed else "completed"}
 
     if decision.get("route") == "direct" and decision.get("tool_name") not in {None, "none"}:
         tool_name = decision["tool_name"]
@@ -215,16 +226,36 @@ async def main_llm_call(state: AgentState, config) -> AgentState:
                 )
             ),
         ]
-        response_parts: list[str] = []
-        async for token in runtime.ollama_service.stream_text(messages):
-            response_parts.append(token)
+        draft = await runtime.ollama_service.invoke_text(messages)
+        verification_failed = False
+        try:
+            verification = await runtime.ollama_service.invoke_structured(
+                DocumentAnswerVerification,
+                [
+                    SystemMessage(content=DOCUMENT_ANSWER_VERIFIER_PROMPT),
+                    HumanMessage(content=json.dumps({
+                        "source_documents": json.loads(messages[1].content),
+                        "draft_answer": draft,
+                        "user_request": state["original_query"],
+                    })),
+                ],
+            )
+            response = normalize_markdown_tables(verification.verified_answer.strip())
+            if not response:
+                raise ValueError("Empty verified answer")
+        except Exception:
+            verification_failed = True
+            response = (
+                "I could not verify this answer against the available evidence, so I have withheld "
+                "the draft findings and citations. Please retry with a narrower question."
+            )
+        for token in TOKEN_CHUNK_PATTERN.findall(response):
             await runtime.emitter.token(token)
-        response = "".join(response_parts).strip()
-        await emit_complete(config, node_name, "Grounded answer generated")
+        await emit_complete(config, node_name, "Verification unavailable; draft withheld" if verification_failed else "Grounded answer verified")
         return {
             "final_response": response,
             "final_report": None,
-            "response_status": "completed",
+            "response_status": "verification_failed" if verification_failed else "completed",
             "current_web_findings": current_web_findings,
             "web_search_query": web_query,
         }
@@ -238,14 +269,11 @@ async def main_llm_call(state: AgentState, config) -> AgentState:
                     {
                         "original_query": state["original_query"],
                         "rewritten_query": state.get("rewritten_query"),
-                        "history": compact_history(state.get("conversation_history", [])),
-                        "project_context": compact_project_context(state.get("project_context")),
-                        "cross_reference_result": state.get("cross_reference_result"),
-                        "image_analysis": state.get("image_analysis"),
-                        "attachment_brief": state.get("attachment_brief"),
-                        "uploaded_company_documents": compact_attachments(state.get("attachment_contexts", [])),
+                        "history": compact_history(state.get("conversation_history", []), max_chars=1000),
+                        "image_analysis": str(state.get("image_analysis") or "")[:1500],
+                        "uploaded_company_documents": compact_attachments(state.get("attachment_contexts", []), limit=6),
                         "project_evidence_completeness": project_completeness(state.get("attachment_contexts", [])),
-                        "retrieved_docs": compact_documents(state.get("reranked_docs", []), limit=8, snippet_limit=500),
+                        "retrieved_docs": compact_documents(state.get("reranked_docs", []), limit=4, snippet_limit=400),
                         "current_web_findings": current_web_findings,
                     },
                     indent=2,

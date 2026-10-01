@@ -25,7 +25,7 @@ DOCUMENT_OPERATION_PATTERN = re.compile(
 )
 COMPLIANCE_DECISION_PATTERN = re.compile(
     r"\b(?:complian(?:ce|t)|non[- ]?complian(?:ce|t)|violation|conform(?:ity|ance)|legal|law|"
-    r"regulation|standard|clause|audit finding|pass(?: an| the)? audit)\b",
+    r"regulations?|standards?|clauses?|requirements?|audit findings?|pass(?: an| the)? audit)\b",
     re.IGNORECASE,
 )
 
@@ -69,7 +69,9 @@ async def orchestrator(state: AgentState, config) -> AgentState:
     requested_mode = "report" if REPORT_REQUEST_PATTERN.search(state["original_query"]) else "answer"
     requested_route = decision.route
     has_documents = bool(state.get("current_attachment_contexts") or state.get("attachment_contexts"))
-    if is_document_operation(
+    if COMPLIANCE_DECISION_PATTERN.search(state["original_query"]):
+        requested_route = "grounded"
+    elif is_document_operation(
         state["original_query"], has_documents=has_documents, response_mode=requested_mode
     ):
         requested_route = "document"

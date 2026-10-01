@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { startTransition, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 import { ActionDialog } from "@/components/ui/action-dialog";
 import { Icon } from "@/components/ui/icon";
@@ -37,7 +38,7 @@ import type {
 } from "@/lib/types";
 
 function AssistantMessage({ content }: { content: string }) {
-  return <div className="message-markdown"><ReactMarkdown>{content}</ReactMarkdown></div>;
+  return <div className="message-markdown"><ReactMarkdown remarkPlugins={[remarkGfm]} components={{ table: ({ children }) => <div className="message-table-scroll" role="region" aria-label="Answer table" tabIndex={0}><table>{children}</table></div> }}>{content.replace(/<br\s*\/?\s*>/gi, " ? ")}</ReactMarkdown></div>;
 }
 
 type WorkspaceView = "projects" | "review" | "evidence";
@@ -802,8 +803,8 @@ export function ChatWorkbench({
               {latestReport && !busy ? <section className="inline-report"><div><p className="eyebrow">Latest findings</p><h3>{latestReport.executive_summary}</h3></div><div className="inline-finding-row">{latestReport.findings.slice(0, 4).map((finding) => <span key={`${finding.category}-${finding.clause_reference}`} className={`finding-pill ${finding.verdict.toLowerCase().replaceAll(" ", "-")}`}><strong>{finding.verdict}</strong>{finding.category}</span>)}</div>{latestReportId ? <Link href={`/report/${latestReportId}`}>Open the complete report <Icon name="arrow" /></Link> : null}</section> : null}
             </div>
 
+            {events.length ? <details className="review-activity" open={busy || undefined}><summary>{busy ? "Review in progress" : "Review activity"}</summary><PipelineStepper complete={!busy} events={events} /></details> : null}
             <div className="review-composer">
-              {events.length ? <PipelineStepper complete={!busy && Boolean(latestReport)} events={events} /> : null}
               <div className="composer-title"><span><Icon name="sparkles" />Ask AuditReady AI</span><small>{composerAttachments.length ? `${composerAttachments.length} file ${composerAttachments.length === 1 ? "is" : "are"} the focus of this question` : visibleUploads.length ? `${visibleUploads.length} project files available as memory` : "You can ask now or add evidence first"}</small></div>
               {uploadQueue.length || composerAttachments.length ? (
                 <div className="composer-attachment-tray" aria-live="polite">
@@ -824,7 +825,7 @@ export function ChatWorkbench({
                 <button aria-label="Attach evidence to this question" className="composer-attach-button" disabled={busy || !activeSessionId} onClick={() => composerUploadRef.current?.click()} title="Attach image or document" type="button"><Icon name="plus" /></button>
                 <textarea ref={composerRef} className="input textarea" disabled={busy || !activeSessionId} placeholder="Ask about a compliance gap, uploaded policy, factory photo, or current standards update…" value={query} onChange={(event) => setQuery(event.target.value)} onKeyDown={(event) => { if ((event.ctrlKey || event.metaKey) && event.key === "Enter") { event.preventDefault(); void handleSubmit(); } }} />
               </div>
-              <div className="review-composer-actions"><span>Ctrl+Enter to send · Progress appears here live</span><button className="button button-primary" disabled={!canSubmit} onClick={() => void handleSubmit()} type="button">{busy ? "Reviewing…" : "Send question"}<Icon name="arrow" /></button></div>
+              <div className="review-composer-actions"><span>Ctrl+Enter to send</span><button className="button button-primary" disabled={!canSubmit} onClick={() => void handleSubmit()} type="button">{busy ? "Reviewing…" : "Send question"}<Icon name="arrow" /></button></div>
             </div>
           </main>
         </section>

@@ -1,11 +1,13 @@
 from __future__ import annotations
 
 import asyncio
+import json
 from collections.abc import AsyncGenerator
 from dataclasses import dataclass
 from typing import Any
 
 from langchain_ollama import ChatOllama
+from langchain_core.messages import SystemMessage
 
 from app.config import get_settings
 
@@ -99,6 +101,7 @@ class OllamaService:
                 model=settings.groq_text_model,
                 api_key=settings.groq_api_key,
                 temperature=0.1,
+                max_tokens=getattr(settings, "groq_max_output_tokens", 2048),
                 timeout=settings.ollama_request_timeout_seconds,
             )
         else:
@@ -176,6 +179,15 @@ class OllamaService:
         return _response_text(response)
 
     async def invoke_structured(self, schema: type, messages: list[Any]) -> Any:
+        if self.provider_name.lower() == "groq" and schema.__name__ == "DocumentAnswerVerification":
+            # Long Markdown answers are fragile inside generated tool arguments.
+            structured_llm = self.text_llm.with_structured_output(schema, method="json_mode")
+            messages = [*messages, SystemMessage(content=(
+                "Return only a valid JSON object matching this schema: "
+                + json.dumps(schema.model_json_schema())
+                + ". Keep verified_answer under 450 words and summarize removed claims briefly."
+            ))]
+            return await self._with_timeout("invoke_structured", structured_llm.ainvoke(messages))
         structured_llm = self.text_llm.with_structured_output(schema)
         return await self._with_timeout("invoke_structured", structured_llm.ainvoke(messages))
 

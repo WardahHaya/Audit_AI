@@ -2595,7 +2595,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .generate-report-button:hover:not(:disabled) { transform: translateY(-1px); box-shadow: 0 10px 24px rgba(101,89,207,.28); }
 .generate-report-button:disabled { opacity: .5; cursor: not-allowed; }
 .generate-report-button svg { width: 15px; height: 15px; }
-.conversation-thread { display: flex; min-height: 0; flex: 1 1 auto; flex-direction: column; gap: .85rem; padding: 1rem; overflow-y: auto; scroll-behavior: smooth; }
+.conversation-thread { display: flex; min-height: 140px; flex: 1 1 0; flex-direction: column; gap: .85rem; padding: 1rem; overflow-y: auto; scroll-behavior: smooth; }
+.conversation-thread > * { flex-shrink: 0; }
+.conversation-thread .review-message.assistant { width: 100%; max-width: 100%; }
 .review-welcome { display: grid; min-height: 100%; place-items: center; align-content: center; text-align: center; }
 .review-welcome-icon { display: grid; width: 48px; height: 48px; place-items: center; color: #6559cf; border-radius: 15px; background: linear-gradient(145deg, #ece9ff, #fff1dc); }
 .review-welcome-icon svg { width: 22px; height: 22px; }
@@ -2648,7 +2650,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .report-progress-spinner { width: 24px; height: 24px; border: 3px solid rgba(255,255,255,.25); border-top-color: #f2a13d; border-radius: 50%; animation: reportSpin .75s linear infinite; }
 @keyframes reportSpin { to { transform: rotate(360deg); } }
 
-.review-composer { display: flex; flex: 0 0 auto; flex-direction: column; gap: .55rem; padding: .8rem 1rem 1rem; border-top: 1px solid #e7e7ee; background: rgba(255,255,255,.96); }
+.review-composer { display: flex; flex: 0 1 auto; min-height: 0; max-height: 45%; overflow-y: auto; flex-direction: column; gap: .55rem; padding: .8rem 1rem 1rem; border-top: 1px solid #e7e7ee; background: rgba(255,255,255,.96); }
+.review-composer > * { flex-shrink: 0; }
+.composer-progress > summary { cursor: pointer; color: #6559cf; font-size: .75rem; font-weight: 700; padding: .25rem 0; }
+.composer-progress[open] > summary { margin-bottom: .5rem; }
 .composer-title { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .composer-title > span { display: inline-flex; align-items: center; gap: .4rem; color: #303246; font-size: .77rem; font-weight: 800; }
 .composer-title svg { width: 16px; height: 16px; color: #6559cf; }
@@ -3005,4 +3010,61 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
     min-height: 0;
     background: #f6f6fa;
   }
+}
+/* Keep the review transcript dominant over navigation and input controls. */
+.project-workspace:has(.review-dashboard) .workspace-command-bar {
+  min-height: 48px;
+  margin-bottom: .6rem;
+  align-items: center;
+}
+.project-workspace:has(.review-dashboard) .workspace-command-bar h1 { font-size: 1.45rem; }
+.project-workspace:has(.review-dashboard) .workspace-command-bar > div > p:last-child { display: none; }
+.project-workspace:has(.review-dashboard) .workspace-feedback { min-height: 32px; padding: .35rem .65rem; margin-bottom: .5rem; }
+.conversation-head { min-height: 60px; padding: .5rem 1rem; }
+.review-composer { padding: .45rem .8rem .6rem; gap: .3rem; max-height: 35%; }
+.review-composer .textarea { min-height: 48px; height: 48px; max-height: 100px; padding-top: .6rem; padding-bottom: .6rem; }
+.review-composer .composer-title { display: none; }
+.review-composer-actions .button { min-height: 34px; padding-block: .4rem; }
+.composer-attach-button { bottom: .4rem; }
+@media (min-width: 901px) {
+  .workspace-main:has(.review-dashboard) { padding: .65rem 1rem; }
+  .review-dashboard { grid-template-columns: 230px minmax(0, 1fr); gap: .7rem; }
+  .review-list-panel { padding: .75rem; }
+  .review-list-head h2 { font-size: .9rem; }
+}
+
+/* Transcript, activity and composer have independent, bounded space. */
+.conversation-panel { min-width: 0; }
+.conversation-thread { min-height: 0; min-width: 0; overscroll-behavior: contain; overflow-x: hidden; }
+.review-message, .message-markdown { min-width: 0; overflow-wrap: anywhere; }
+.message-table-scroll { max-width: 100%; overflow-x: auto; margin: .8rem 0; }
+.message-markdown table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+.message-markdown th, .message-markdown td { min-width: 140px; padding: .65rem; border: 1px solid #dedfec; text-align: left; vertical-align: top; }
+.message-markdown th { background: #f0edff; }
+.message-markdown pre { max-width: 100%; overflow-x: auto; }
+.review-composer { flex: 0 0 auto; max-height: none; overflow: visible; }
+.composer-attachment-tray { max-height: 72px; overflow-y: auto; }
+.review-activity { flex: 0 0 auto; min-width: 0; border-top: 1px solid #e7e7ee; background: #f8f7fd; }
+.review-activity > summary { padding: .5rem .9rem; color: #6559cf; font-size: .75rem; font-weight: 700; cursor: pointer; }
+.review-activity .pipeline-shell { position: static; padding: .55rem .9rem; max-height: 28dvh; overflow-y: auto; border: 0; box-shadow: none; border-radius: 0; }
+.review-activity .pipeline-progress-head { position: sticky; top: -.55rem; z-index: 1; padding: .35rem 0; background: #f8f7fd; }
+.review-activity .pipeline-stepper { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .6rem; }
+.review-activity .pipeline-step { min-width: 0; align-items: start; }
+.review-activity .pipeline-step p { white-space: normal; overflow-wrap: anywhere; font-size: .7rem; }
+.review-activity .pipeline-details summary { font-size: .75rem; padding: .4rem 0; }
+.review-activity .pipeline-details ol { max-height: 110px; overscroll-behavior: contain; }
+.review-activity .pipeline-details li { font-size: .7rem; overflow-wrap: anywhere; }
+@media (max-width: 900px) {
+  .workspace-main:has(.review-dashboard) { height: calc(100dvh - 64px); min-height: 0; overflow: hidden; padding: .5rem; }
+  .project-workspace:has(.review-dashboard) { height: 100%; min-height: 0; }
+  .review-dashboard { grid-template-rows: auto minmax(0, 1fr); }
+  .review-dashboard .review-list-panel { max-height: 95px; overflow-y: auto; padding: .5rem; }
+  .review-dashboard .conversation-panel { height: 100%; min-height: 0; }
+  .review-activity .pipeline-stepper { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .conversation-head { min-height: 0; padding: .5rem; gap: .4rem; }
+  .conversation-head h2 { font-size: .85rem; }
+  .conversation-head p, .conversation-head .eyebrow { display: none; }
+  .conversation-head-actions { flex-wrap: wrap; justify-content: end; }
+  .review-composer-actions { flex-direction: row; align-items: center; }
+  .review-composer-actions .button { width: auto; min-width: 120px; }
 }

@@ -57,6 +57,7 @@ class Settings(BaseSettings):
     ai_provider: str = "ollama"
     groq_api_key: str | None = None
     groq_text_model: str = "llama-3.3-70b-versatile"
+    groq_max_output_tokens: int = Field(default=2048, ge=256, le=32768)
     groq_vision_model: str = "meta-llama/llama-4-scout-17b-16e-instruct"
 
     # Keep enough candidates for RRF while avoiding unnecessary local-model work.

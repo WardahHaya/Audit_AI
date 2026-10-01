@@ -78,9 +78,13 @@ def image_to_data_url(mime_type: str, payload: bytes, *, max_edge: int = 1600) -
     return f"data:{prepared_mime};base64,{encoded}"
 
 
-def compact_history(history: list[dict], limit: int = 8) -> str:
+def compact_history(history: list[dict], limit: int = 8, max_chars: int = 2000) -> str:
     rows = history[-limit:]
-    return "\n".join(f"{row['role']}: {row['content']}" for row in rows)
+    text = "\n".join(f"{row['role']}: {row['content']}" for row in rows)
+    if len(text) <= max_chars:
+        return text
+    marker = "[Earlier history omitted]\n"
+    return marker + text[-max(1, max_chars - len(marker)):]
 
 
 def compact_project_context(context: dict | None) -> dict:
@@ -144,7 +148,7 @@ def compact_attachments(attachments: list[dict], limit: int = 12) -> list[dict]:
             "file_name": row.get("file_name"),
             "mime_type": row.get("mime_type"),
             "document_type": row.get("document_type"),
-            "evidence_summary": neutralize_embedded_instructions(str(row.get("evidence_summary") or "")),
+            "evidence_summary": neutralize_embedded_instructions(str(row.get("evidence_summary") or ""))[:400],
             "ingestion_status": row.get("ingestion_status"),
             "extraction_method": row.get("extraction_method"),
             "context_scope": row.get("context_scope", "project_memory"),
@@ -154,13 +158,19 @@ def compact_attachments(attachments: list[dict], limit: int = 12) -> list[dict]:
 
 
 def document_workspace_attachments(
-    attachments: list[dict], *, limit: int = 4, per_document_limit: int = 30_000
+    attachments: list[dict], *, limit: int = 4, per_document_limit: int = 6000,
+    total_char_limit: int = 8000,
 ) -> list[dict]:
     """Supply document operations with source content, while keeping prompts bounded."""
     result = []
-    for row in attachments[:limit]:
+    selected = attachments[:limit]
+    remaining = total_char_limit
+    for index, row in enumerate(selected):
         extracted = str(row.get("extracted_text") or "")
-        truncated = len(extracted) > per_document_limit
+        allowance = min(per_document_limit, remaining // (len(selected) - index))
+        excerpt = neutralize_embedded_instructions(extracted[:allowance])[:allowance]
+        remaining -= len(excerpt)
+        truncated = len(extracted) > allowance
         result.append(
             {
                 "upload_id": row.get("upload_id"),
@@ -170,7 +180,7 @@ def document_workspace_attachments(
                 "ingestion_status": row.get("ingestion_status"),
                 "extraction_method": row.get("extraction_method"),
                 "content_truncated": truncated,
-                "extracted_content": neutralize_embedded_instructions(extracted[:per_document_limit]),
+                "extracted_content": excerpt,
             }
         )
     return result
